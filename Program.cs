@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Exercise 2
+// Input a number (n) from the user and check if it is even or odd.
+
+using System;
 
 namespace Even_or_Odd
 {
@@ -8,11 +11,11 @@ namespace Even_or_Odd
         {
             Console.WriteLine("Please provide your input number");
 
-            string A = Console.ReadLine();
+            string N = Console.ReadLine();
 
-            int a = Convert.ToInt32(A);
+            int n = Convert.ToInt32(N);
 
-            if (a % 2 == 0)
+            if (n % 2 == 0)
 
                 Console.WriteLine("Number is even");
 
